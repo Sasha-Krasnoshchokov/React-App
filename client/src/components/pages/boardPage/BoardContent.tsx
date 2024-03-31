@@ -80,7 +80,7 @@ const BoardListsWrapper = styled.ul<{ $columns?: number }>`
         grid-template-columns: repeat(${$columns}, 1fr);
       `
       : ''}
-    @media screen (max-width: 600pc) {
+    @media (max-width: 600px) {
       height: calc(100% - 100px);
     }
 `;
