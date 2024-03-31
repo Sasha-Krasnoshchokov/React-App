@@ -1,0 +1,12 @@
+{
+  "semi": true,
+  "[typescript]": {
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false
+  },
+  "tabWidth": 2,
+  "printWidth": 120,
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "singleAttributePerLine": true
+}
