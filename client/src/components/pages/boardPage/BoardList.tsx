@@ -72,7 +72,7 @@ const BoardListItem = styled.li<{ $column: number }>`
   display: flex;
   flex-direction: column;
   gap: 8px;
-  min-width: 180px;
+  min-width: 300px;
   padding: 0 4px 8px 4px;
   background: #fff;
   overflow: hidden auto;
@@ -103,6 +103,9 @@ const BoardListTitle = styled.h3`
     border-radius: 4px;
     background: rgba(var(--main-tooltip-bg-rgb), 1);
     z-index: 10;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   & span:hover::before {
