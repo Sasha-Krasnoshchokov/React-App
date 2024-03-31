@@ -23,6 +23,9 @@
 /server/dist
 /server/build
 
+# DB
+/server/pgdata
+
 # Logs
 /server/logs
 /server/*.log
@@ -32,17 +35,11 @@
 /server/yarn-error.log*
 /server/lerna-debug.log*
 
-
-# Postgresql DB
-/server/pgdata/*
-
-
 # IDE - VSCode
 /server/.vscode/*
 
 # dotenv environment variable files
 /server/.env
-
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 /server/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
