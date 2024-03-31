@@ -67,10 +67,9 @@ export const EditorDescription = styled.label`
 
 export const EditorAction = styled.button<{ $isEdit: boolean; $isDisabled: boolean; $iconUrl: string }>`
   position: relative;
-  width: max-content;
   padding: 10px 10px 10px 40px;
-  width: 140px;
-  min-width: 140px;
+  width: max-content;
+  min-width: 200px;
   min-height: 40px;
   font-size: 16px;
   line-height: 18px;
