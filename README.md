@@ -6,8 +6,8 @@
   ```$ git clone https://github.com/Sasha-Krasnoshchokov/React-App.git```
 
   2. Install dependencies:
-   - *client* ```$ cd client npm install```
-   - *server* ```$ cd server npm install```
+   - *client*: open a terminal and type ```$ cd React-App/client``` and then ```$ npm install```
+   - *server*: open a new terminal and type ```$ cd React-App/server``` and then ```$ npm install```
 
    3. Running the client app (you should be in the * */client* * directory) ```$ npm run start```
       
