@@ -5,7 +5,7 @@ export class List {
   @PrimaryColumn({ type: 'varchar', length: 60 })
   id: string;
 
-  @Column({ type: 'varchar', length: 20 })
+  @Column({ type: 'varchar', length: 200 })
   title: string;
 
   @Column({ type: 'varchar', length: 500 })
