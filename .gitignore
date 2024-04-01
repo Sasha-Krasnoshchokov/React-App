@@ -23,9 +23,6 @@
 /server/dist
 /server/build
 
-# DB
-/server/pgdata
-
 # Logs
 /server/logs
 /server/*.log
